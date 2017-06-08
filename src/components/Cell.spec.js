@@ -22,11 +22,6 @@ describe('<Cell />', function () {
     expect(wrapper.props().style.width).toEqual('20px')
   })
 
-  it('Defaults `size` property to 15', function () {
-    const wrapper = shallow(<Cell />)
-    expect(wrapper.props().style.width).toEqual('15px')
-  })
-
   it('Maps `marked` property with PLAYER_1 to CircleIcon', function () {
     const wrapper = shallow(<Cell marked={PLAYER_1} />)
     expect(wrapper.find(CircleIcon).length).toEqual(1)

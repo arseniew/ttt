@@ -35,13 +35,12 @@ class Cell extends PureComponent {
 }
 
 Cell.defaultProps = {
-  size: 15,
   onClick: () => {}
 }
 
 Cell.propTypes = {
   marked: number,
-  size: number,
+  size: number.isRequired,
   onClick: func,
   x: number,
   y: number

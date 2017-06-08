@@ -1,0 +1,21 @@
+{
+  "extends": [
+    "eslint-config-standard",
+    "plugin:react/recommended"
+  ],
+  "env": {
+    "mocha": true
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true,
+      "jsx": true
+    }
+  },
+  "plugins": ["eslint-plugin-react"],
+  "settings": {
+    "react": {
+      "pragma": "React"
+    }
+  }
+}

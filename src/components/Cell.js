@@ -23,7 +23,8 @@ class Cell extends PureComponent {
     const Icon = playerToIconMap[marked]
     const style = {
       width: `${size}px`,
-      height: `${size}px`
+      height: `${size}px`,
+      backgroundColor: `#fff`
     }
     return (
       <div style={style} onClick={this.onClickHandler}>

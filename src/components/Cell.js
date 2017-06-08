@@ -27,7 +27,7 @@ class Cell extends PureComponent {
       backgroundColor: `#fff`
     }
     return (
-      <div style={style} onClick={this.onClickHandler}>
+      <div style={style} onClick={!marked && this.onClickHandler}>
         {Icon && <Icon />}
       </div>
     )

@@ -1,5 +1,5 @@
 {
-  "name": "tick-tack-toe",
+  "name": "tic-tac-toe",
   "version": "1.0.0",
   "description": "React + Redux implementation of classic game",
   "main": "index.js",

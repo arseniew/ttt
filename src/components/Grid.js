@@ -16,8 +16,8 @@ class Grid extends Component {
     }
 
     let fields = []
-    for (let x = offsetX; x < width + offsetX; x += 1) {
-      for (let y = offsetY; y < height + offsetY; y += 1) {
+    for (let y = offsetY; y < height + offsetY; y += 1) {
+      for (let x = offsetX; x < width + offsetX; x += 1) {
         fields.push(
           <Cell
             key={`${x}.${y}`}
